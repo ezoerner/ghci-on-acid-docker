@@ -23,7 +23,7 @@ Run the resulting image:
 
 This will start a GOA session.
 
-I suggest creating an alias to start goa in your shell environment, e.g.:
+I suggest creating an alias in your shell environment to start goa, e.g.:
 
     alias goa="docker run -i -t ezoerner/lambdabot"
 
