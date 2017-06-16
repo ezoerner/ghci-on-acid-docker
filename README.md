@@ -23,6 +23,9 @@ Run the resulting image:
 
 This will start a GOA session.
 
+I suggest creating an alias to start goa in your shell environment, e.g.:
+
+    alias goa="docker run -i -t ezoerner/lambdabot"
 
 [docker]: https://docs.docker.com/docker-for-mac/
 [goa]: https://wiki.haskell.org/GHC/GHCi#GHCi_on_Acid
