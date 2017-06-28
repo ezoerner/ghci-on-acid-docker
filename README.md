@@ -1,9 +1,12 @@
 # Install [GHCI on Acid][goa] (GOA) 
 ## macOS
 
-*Note:* I attempted to install lambdabot directly on macOS, and was successful on my home machine (with the exception of the hoogle command which fails), but I was unable to get it to work on my Nike laptop.
+*Note:* I attempted to install lambdabot directly on macOS, and was partially
+successful on my home machine (the hoogle command fails),
+but I was unable to get it to work on my Nike laptop.
 
-The most reliable way I've found to get lambdabot to work on macOS is to use [Docker for Mac][docker].
+The most reliable way I've found to get lambdabot to work on macOS is
+to use [Docker for Mac][docker].
 
 You can either pull my docker image from Docker Hub:
 
