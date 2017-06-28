@@ -21,7 +21,7 @@ Run the resulting image:
 
     docker run --rm -i -t <userid>/lambdabot
 
-This will start a GOA session, and removed the docker container when you exit.
+This will start a GOA session, and remove the docker container when you exit.
 
 I suggest creating an alias in your shell environment to start goa, e.g.:
 
