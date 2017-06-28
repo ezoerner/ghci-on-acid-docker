@@ -19,13 +19,13 @@ This will take some time.
 
 Run the resulting image:
 
-    docker run -i -t <userid>/lambdabot
+    docker run --rm -i -t <userid>/lambdabot
 
-This will start a GOA session.
+This will start a GOA session, and removed the docker container when you exit.
 
 I suggest creating an alias in your shell environment to start goa, e.g.:
 
-    alias goa="docker run -i -t ezoerner/lambdabot"
+    alias goa="docker run --rm -i -t ezoerner/lambdabot"
 
 [docker]: https://docs.docker.com/docker-for-mac/
 [goa]: https://wiki.haskell.org/GHC/GHCi#GHCi_on_Acid
